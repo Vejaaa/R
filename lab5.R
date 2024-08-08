@@ -1,0 +1,16 @@
+x=c(1,2,3,4)
+y=c(10,20,30,40)
+plot(x,y,xlab="x axis",ylab="y axis",main="scatter plot",col="red",type="p",pch=16)
+plot(x,y,xlab="x axis",ylab="y axis",main="line graph",col="green", type="l",lwd=8)
+
+y=c("a","b","c","d")
+colors=c("pink","orange","yellow")
+barplot(x,names.arg = y,col=colors,main="bar plot")
+hist(x,ylab="frequency",col=colors,main="histogram",)
+
+# x=c(1,2,3,4)
+#xdata <- readline("x(comma separated): ") 
+#x <- as.numeric(strsplit(xdata, ",")[[1]])
+#y=c(10,20,30,40)
+#ydata <- readline("x(comma separated): ") 
+#y <- as.numeric(strsplit(ydata, ",")[[1]]) 
